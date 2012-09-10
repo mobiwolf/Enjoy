@@ -96,36 +96,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D5617D290FAF579A00928B3A /* JSActionAnalog.h */,
-				D5617D2A0FAF579A00928B3A /* JSActionAnalog.m */,
-				D594BE840FAE6219007A85F2 /* Joystick.h */,
-				D594BE850FAE6219007A85F2 /* Joystick.m */,
-				D594BE880FAE64AD007A85F2 /* JSAction.h */,
-				D594BE890FAE64AD007A85F2 /* JSAction.m */,
-				D5617D240FAF579300928B3A /* JSActionHat.h */,
-				D5617D250FAF579300928B3A /* JSActionHat.m */,
-				D5617D180FAF568100928B3A /* JSActionButton.h */,
-				D5617D190FAF568100928B3A /* JSActionButton.m */,
-				D594BEF70FAE6FF2007A85F2 /* JoystickController.h */,
-				D594BEF80FAE6FF2007A85F2 /* JoystickController.m */,
+				5A21439015FD8FE40002B72E /* Views */,
+				5A21438F15FD8FCC0002B72E /* Controllers */,
+				5A21438C15FD8F810002B72E /* Models */,
 				D594BF810FAE9661007A85F2 /* ApplicationController.h */,
 				D594BF820FAE9661007A85F2 /* ApplicationController.m */,
-				D5617A340FAEB74000928B3A /* ConfigsController.h */,
-				D5617A350FAEB74000928B3A /* ConfigsController.m */,
-				D5617A370FAEBA1800928B3A /* Config.h */,
-				D5617A380FAEBA1800928B3A /* Config.m */,
-				D5617DF00FAF636C00928B3A /* SubAction.h */,
-				D5617DF10FAF636C00928B3A /* SubAction.m */,
-				D5F8096F0FB093400006A4DE /* TargetConfig.h */,
-				D5F809700FB093400006A4DE /* TargetConfig.m */,
-				D5617FD40FAFD06000928B3A /* Target.h */,
-				D5617FD50FAFD06000928B3A /* Target.m */,
-				D5617FD70FAFD1E600928B3A /* TargetKeyboard.h */,
-				D5617FD80FAFD1E600928B3A /* TargetKeyboard.m */,
-				D5617FE20FAFD7B000928B3A /* TargetController.h */,
-				D5617FE30FAFD7B000928B3A /* TargetController.m */,
-				D5617FE50FAFDB5800928B3A /* KeyInputTextView.h */,
-				D5617FE60FAFDB5800928B3A /* KeyInputTextView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -198,6 +173,55 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A21438C15FD8F810002B72E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5F8096F0FB093400006A4DE /* TargetConfig.h */,
+				D5F809700FB093400006A4DE /* TargetConfig.m */,
+				D5617FD70FAFD1E600928B3A /* TargetKeyboard.h */,
+				D5617FD80FAFD1E600928B3A /* TargetKeyboard.m */,
+				D5617D290FAF579A00928B3A /* JSActionAnalog.h */,
+				D5617D2A0FAF579A00928B3A /* JSActionAnalog.m */,
+				D5617D240FAF579300928B3A /* JSActionHat.h */,
+				D5617D250FAF579300928B3A /* JSActionHat.m */,
+				D5617D180FAF568100928B3A /* JSActionButton.h */,
+				D5617D190FAF568100928B3A /* JSActionButton.m */,
+				D5617DF00FAF636C00928B3A /* SubAction.h */,
+				D5617DF10FAF636C00928B3A /* SubAction.m */,
+				D5617FD40FAFD06000928B3A /* Target.h */,
+				D5617FD50FAFD06000928B3A /* Target.m */,
+				D5617A370FAEBA1800928B3A /* Config.h */,
+				D5617A380FAEBA1800928B3A /* Config.m */,
+				D594BE840FAE6219007A85F2 /* Joystick.h */,
+				D594BE850FAE6219007A85F2 /* Joystick.m */,
+				D594BE880FAE64AD007A85F2 /* JSAction.h */,
+				D594BE890FAE64AD007A85F2 /* JSAction.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5A21438F15FD8FCC0002B72E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D594BEF70FAE6FF2007A85F2 /* JoystickController.h */,
+				D594BEF80FAE6FF2007A85F2 /* JoystickController.m */,
+				D5617A340FAEB74000928B3A /* ConfigsController.h */,
+				D5617A350FAEB74000928B3A /* ConfigsController.m */,
+				D5617FE20FAFD7B000928B3A /* TargetController.h */,
+				D5617FE30FAFD7B000928B3A /* TargetController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5A21439015FD8FE40002B72E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5617FE50FAFDB5800928B3A /* KeyInputTextView.h */,
+				D5617FE60FAFDB5800928B3A /* KeyInputTextView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
